@@ -1,0 +1,15 @@
+#Allowed Values: LEFT, RIGHT
+map_position = "RIGHT"
+death_position_record = true
+show_position = true
+show_biome = true
+show_time = false
+show_mobs = true
+show_animals = false
+current_level_points_only = false
+#Range: 16 ~ 192
+map_size = 64
+map_background_color = -1
+#Allowed Values: NORMAL, ROUND
+map_mode = "NORMAL"
+

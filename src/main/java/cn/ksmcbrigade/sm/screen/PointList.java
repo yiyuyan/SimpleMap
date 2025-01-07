@@ -56,7 +56,7 @@ public class PointList extends ContainerObjectSelectionList<PointList.Entry> {
                 Minecraft.getInstance().setScreen(null);
             }).bounds(0, 0, 25, 20).build();
             this.gotoB = Button.builder(Component.literal("GOTO"), (p_269616_) -> {
-                if(ModList.get().isLoaded("baritone")){
+                if(ModList.get().isLoaded("baritoe") || ModList.get().isLoaded("baritone")){
                     Minecraft.getInstance().getConnection().sendChat(config.gotoCommand());
                     Minecraft.getInstance().setScreen(null);
                 }
